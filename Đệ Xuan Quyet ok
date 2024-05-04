@@ -2491,7 +2491,7 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open Ui"
+ToggleButton.Text = "Open Hub"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.TextSize = 14.000
 ToggleButton.Draggable = true
@@ -2503,7 +2503,7 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "MNhat Hub", HidePremium = false, IntroText = "MNhat Hub", SaveConfig = true, ConfigFolder = "Tên Script"})
+local Window = OrionLib:MakeWindow({Name = "MNhat Hub", HidePremium = false, IntroText = "MNhat Hub", SaveConfig = true, ConfigFolder = "MNhat"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
@@ -2530,7 +2530,7 @@ local IQ = Window:MakeTab({
 })
 
 local S = Window:MakeTab({
-    Name = "chri số",
+    Name = "chỉ số",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
